@@ -1,6 +1,6 @@
-# Example Home Assistant add-on repository
+# Wullewatz Home Assistant add-on repository
 
-This repository can be used as a "blueprint" for add-on development to help you get started.
+
 
 Add-on documentation: <https://developers.home-assistant.io/docs/add-ons>
 
@@ -10,7 +10,7 @@ Add-on documentation: <https://developers.home-assistant.io/docs/add-ons>
 
 This repository contains the following add-ons
 
-### [Example add-on](./example)
+### [HassPiAudio](./HassPiAudio)
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
