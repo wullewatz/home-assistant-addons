@@ -1,0 +1,4 @@
+#!/usr/bin/with-contenv bashio
+
+bashio::log.info 'Start minidlna' 
+exec /usr/sbin/minidlnad -S  < /dev/null

@@ -1,0 +1,30 @@
+{
+  "name": "HasPiAudio",
+  "version": "0.2.8",
+  "slug": "haspiaudio",
+  "description": "DLNA Renderer(gmrender-resurrect) on Raspi Audio Out, DLNA Server(minidlna) that shares Homeassistant's Media folder and Snapcast Server for MultiRoom Audio ",
+  "map": ["media:rw", "share:rw"],
+  "init": false,
+  "boot": "auto",
+  "audio": true,
+  "devices": ["/dev/snd"],
+  "startup": "services",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "host_network": true,
+  "ports": { 
+       "50000/tcp": 50000,
+       "1704/tcp": 1704,
+       "1705/tcp": 1705,
+       "1780/tcp": 1780,
+       "8200/tcp": 8200
+  },
+  "ports_description": {
+       "50000/tcp": "DLNA Renderer",
+	   "1704/tcp": "Snapserver",
+	   "1705/tcp": "Snapclient",
+	   "1780/tcp": "Snaphttp",
+	   "8200/tcp": "DLNA Discovery"
+  },
+  "options": {},
+  "schema": {}
+}

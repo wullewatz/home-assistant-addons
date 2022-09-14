@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv bashio
+
+bashio::log.info 'Start Multiroom' 
+exec /usr/local/bin/gmediarender -f HasPiAudio -p 50000 --gstout-audiopipe 'audioresample ! audio/x-raw, rate=48000, format=S16LE ! filesink location=/share/snapfifo'
+

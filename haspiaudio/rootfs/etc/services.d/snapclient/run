@@ -1,0 +1,6 @@
+#!/usr/bin/with-contenv bashio
+ip addr show
+
+bashio::log.info 'Start Snapclient' 
+exec  /usr/bin/snapclient -h 172.30.32.1 -p 1704 --player alsa -s pulse < /dev/null
+
