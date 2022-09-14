@@ -1,6 +1,6 @@
 # Wullewatz Home Assistant add-on repository
 
-
+![This is an image](https://github.com/wullewatz/home-assistant-addons/raw/main/haspiaudio/logo.png)
 
 Add-on documentation: <https://developers.home-assistant.io/docs/add-ons>
 
