@@ -10,7 +10,7 @@ Add-on documentation: <https://developers.home-assistant.io/docs/add-ons>
 
 This repository contains the following add-ons
 
-### [HassPiAudio](./hasspiaudio)
+### [HassPiAudio]([./hasspiaudio](https://github.com/wullewatz/home-assistant-addons/tree/main/haspiaudio :)
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
