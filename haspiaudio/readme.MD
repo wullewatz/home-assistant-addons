@@ -1,3 +1,4 @@
+![This is an image](https://github.com/wullewatz/home-assistant-addons/raw/main/haspiaudio/logo.png)
 # Home Assistant Add-on: HassPiAudio
 
 Raspberry DLNA Server and DLNA Renderer on local 3.5mm Headfone out.
