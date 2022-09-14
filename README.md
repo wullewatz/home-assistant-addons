@@ -18,7 +18,11 @@ This repository contains the following add-ons
 ![Supports armv7 Architecture][armv7-shield]
 ![Supports i386 Architecture][i386-shield]
 
-_Example add-on to use as a blueprint for new add-ons._
+Raspberry DLNA Server and DLNA Renderer on local 3.5mm Headfone out. Also Snapcast Server & Client for MultiRoomAudio!
+
+Based on: badaix/snapcast and hzeller/gmrender-resurrect
+
+DLNA Server -> DLNA Render -> Snapcast Server -> Snapcast -> Audio Out
 
 <!--
 
