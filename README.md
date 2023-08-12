@@ -1,7 +1,5 @@
 # Wullewatz Home Assistant add-on repository
 
-![This is an image](https://github.com/wullewatz/home-assistant-addons/raw/main/haspiaudio/logo.png)
-
 Add-on documentation: <https://developers.home-assistant.io/docs/add-ons>
 
 [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fhome-assistant%2Faddons-example)
@@ -48,3 +46,6 @@ Notes to developers after forking or using the github template feature:
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+
+
+I coul'd need some help in the structure of the addon, so thos maybe can be an Community Addon!!!
