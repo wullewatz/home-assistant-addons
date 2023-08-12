@@ -18,12 +18,13 @@ This repository contains the following add-ons
 ![Supports armv7 Architecture][armv7-shield]
 ![Supports i386 Architecture][i386-shield]
 
-Raspberry DLNA Server and DLNA Renderer on local 3.5mm Headfone out. Also Snapcast Server & Client for MultiRoomAudio!
+Raspberry DLNA Server, that shares local Home Assistent Media and a DLNA Renderer on local 3.5mm Headfone out. Also Snapcast Server & Client for MultiRoomAudio!
 
 Based on: badaix/snapcast and hzeller/gmrender-resurrect
 
 DLNA Server -> DLNA Render -> Snapcast Server -> Snapcast -> Audio Out
 
+It's working, and no latency on 64bit clients (Snapcast Android App)! 👍
 <!--
 
 Notes to developers after forking or using the github template feature:
