@@ -49,3 +49,21 @@ Notes to developers after forking or using the github template feature:
 
 
 I coul'd need some help in the structure of the addon, so thos maybe can be an Community Addon!!!
+
+
+Installation:
+
+- Copy folder into addons
+- Install it from HA addons
+- No Setup needed (Exept IP-Ports if needed)
+- Upnp Server shares HA Media folder
+- UPNP Renderer will be detect by HA DLNA
+- Add Snapcast integration from HA
+
+Screenshots:
+![Screenshot_20230813-140213_Chrome](https://github.com/wullewatz/home-assistant-addons/assets/64665830/e3a094bb-a41c-4857-b612-f0128a446bdc)
+![Screenshot_20230813-140307_Chrome](https://github.com/wullewatz/home-assistant-addons/assets/64665830/4ffb4c8c-9e08-454e-b6ae-67ffde9834f3)
+![Screenshot_20230813-140448_Chrome](https://github.com/wullewatz/home-assistant-addons/assets/64665830/502d3dbc-47a4-4430-9b5f-8a2d82434fea)
+(Sample made with HACS Mini-Media-Player)
+
+
